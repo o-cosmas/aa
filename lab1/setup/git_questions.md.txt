@@ -45,9 +45,9 @@ No other changes to the text should be made.
     git remote add course-assignments https://github.com/dat520-2021/assignments
     ```
 
-    - [x] a) so that we automatically pull changes from the `assignments` repo into the `username-labs` repo with `git pull` when they become available
+    - [ ] a) so that we automatically pull changes from the `assignments` repo into the `username-labs` repo with `git pull` when they become available
     - [ ] b) so that our changes to the `username-labs` repo are also reflected in the `assignments` repo
-    - [ ] c) so that we can pull updates from the `assignments` repo, such as new or updated lab assignments
+    - [x] c) so that we can pull updates from the `assignments` repo, such as new or updated lab assignments
     - [ ] d) so that the initial state of our `username-labs` repo will be the same as the state of the `assignments` repo
 
 5. If the remote repositories are set up as in the following segment, how would you pull changes from the `dat520-2021/assignments` repo into the `dat520-2021/student-labs` repo you are working in?
@@ -60,9 +60,9 @@ No other changes to the text should be made.
     ```
 
     - [ ] a) `git pull dat520-2021/assignments.git dat520-2021/student-labs.git`
-    - [ ] b) `git pull course-assignments master`
+    - [x] b) `git pull course-assignments master`
     - [ ] c) `git pull master course-assignments`
-    - [x] d) `git pull course-assignments origin`
+    - [ ] d) `git pull course-assignments origin`
     - [ ] e) `git pull`
 
 6. What does the following Git command do?
